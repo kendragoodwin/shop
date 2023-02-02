@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.about {
+    background-color: rgb(254, 254, 254);
+    height: 100vh;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin: 5vh 0;
+}
+
+.threedivs {
+    width: 50%;
+    height: 100%;
+    display: flex; 
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+.shop {
+    border: solid 1px rgb(149, 0, 255);
+    width: calc(100%/3);
+}
+
+.employees {
+    border: solid 1px rgb(0, 0, 0);
+    width: calc(100%/3);
+
+}
+
+.products {
+    border: solid 1px rgb(255, 166, 0);
+    width: calc(100%/3);
+}
+
+.location {
+    width: 20%;
+    height: 100%;
+    border: solid 1px rgb(63, 230, 12);
+}
+
+.news {
+    width: 100%;
+    height: 20vh;
+    border: solid 1px rgb(0, 183, 255);
+}
+
+.bottom {
+    width: 100%;
+    height: 5vh;
+    border: solid 1px rgb(255, 234, 0);
+}
